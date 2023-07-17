@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .section {
+            border: 1px solid black;
+            box-sizing: border-box;
+            padding-left: 20px;
+            color: white;
+
+        }
+
+        .section-title {
+            position: relative;
+            float: right;
+            width: 100px;
+            border: 1px solid black;
+            background-color: #ff6600;
+            color: rgb(0, 0, 0);
+
+        }
+
+        @media (min-width: 992px) {
+            .section {
+                width: 33.33%;
+                float: left;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .section {
+                width: 50%;
+                float: left;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .section {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="menu">
+            <h1>Our Menu</h1>
+        </div>
+        <div class="section" style="background-color: #ff3366;">
+            <h2 class="section-title">Chicken</h2><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, cumque dignissimos
+                ducimus ipsam laborum animi reiciendis sint maxime doloribus.</p>
+        </div>
+        <div class="section" style="background-color: #33cc33;">
+            <h2 class="section-title">Beef</h2><br><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum error voluptatem quod tempora. Illo unde
+                autem suscipit adipisci ea harum?</p>
+        </div>
+        <div class="section" style="background-color: #3366ff;">
+            <h2 class="section-title">Sushi</h2><br><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quo omnis ipsam quae eius itaque saini
+                sahab ki jai iste quia error quod inventore saini?</p>
+        </div>
+    </body>
+
+</html>
+
+</body>
+
+</html>
